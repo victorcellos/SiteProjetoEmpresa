@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos.css" rel="stylesheet">
+    <title>Nexus Solutions - Desenvolvimento Web</title>
+    <link rel="shortcut icon" href="img/nexusgroup2.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header style="background-color: #2daae1; color: rgb(255, 255, 255); padding: 5px;">
+        <a href="mailto:suporte_nexus@outlook.com"><i style="margin-left: 10%;" class="fa-solid fa-paper-plane"></i></a>
+        <span>suporte_nexus@outlook.com</span>
+    </header>
+    <nav id="navbar">
+        <div id="navbar-container">
+            <p id="logo">Nexus Solutions</p>
+            <ul id="menu-items">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="novidades.html">Novidades</a></li>
+                <li id="ativo"><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="contato">
+        <div id="contato-container">
+            <h1 style="text-align: center;">Contatos</h1><br>
+            <p>Aqui voce encontra todas as formas de entrar em contato conosco, 
+            caso queira saber os valores ou tirar duvidas, clique abaixo!
+            </p>
+            <hr>
+            <img id="seta" src="img/seta.png" alt="setaparabaixo">
+        </div>
+    </main>
+
+    <address>
+        <div>
+            <ul id="ulcontato">
+                <li><img class="svgs" src="img/phone.png" alt="phone">&nbsp;Telefone:&nbsp;<a style="color:rgb(0, 132, 255);" class="a-contato" href="tel:+5521982321789">(21) 98232-1789</a></li>
+                <li><img class="svgs" src="img/linkedin.png" alt="linkedin">&nbsp;Linkedin:&nbsp;<a style="color:rgb(0, 132, 255);" class="a-contato" href="https://www.linkedin.com/in/victor-vasconcellos-7a0b54235/" target="_blank">Nexus Solutions</a></li>
+                <li><img class="svgs" src="img/instagram-new.png" alt="linkedin">&nbsp;Instragram:&nbsp;<a style="color:rgb(0, 132, 255);" class="a-contato" href="https://www.instagram.com/victor_cellos/" target="_blank">@Nexus_Solutions</a></li>
+                <li><img class="svgs" src="img/github.png" alt="github">&nbsp;Github:&nbsp;<a style="color:rgb(0, 132, 255);" class="a-contato" href="https://github.com/victorcellos" target="_blank">Nexus Solutions</a></li>
+                <li><img class="svgs" src="img/mail.png" alt="linkedin">&nbsp;Email:&nbsp;<a style="color:rgb(0, 132, 255);" href="mailto:victor.cellos2@gmail.com">suporte_nexus@gmail.com</a></li>
+            </ul>
+        </div>
+        <form name="formulario" method="POST" action="obrigado.html" data-netlify="true">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome:" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email:" required>
+
+            <label for="mensagem">Assunto</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem:" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </address>
+
+
+    
+
+
+    <footer id="footer">
+        <p>&copy; Copyright 2022 - Todos os direitos reservados.</p>
+        <p>Criado por Nexus Solutions</p>
+    </footer>
+
+
+    <!-- Font Awesome - Icones -->
+    <script src="https://kit.fontawesome.com/83ab80e134.js" crossorigin="anonymous"></script>
+</body>
+</html>
